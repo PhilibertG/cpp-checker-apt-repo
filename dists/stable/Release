@@ -5,7 +5,10 @@ Codename: stable
 Architectures: amd64 all
 Components: main
 Description: EPITECH C++ Coding Style Checker Repository
+Date: $(date -R)
 MD5Sum:
-4577b0f91d4bfbc10415a7d616fad514  main/binary-amd64/Packages.gz
+5fe19e9d74eccac9b4bbae44adf8f178  main/binary-amd64/Packages
+b9e0aaec5a215d3397a85ae7298efcad  main/binary-amd64/Packages.gz
 SHA256:
-1bc88cc9b85a964213c8981ec08d26db4921740212e374b642bd632ce2553541  main/binary-amd64/Packages.gz
+7d2ab8e961fcdf3378bea69b947d546c46b8b5bdb6386e12df9420bbb1a2f0e6  main/binary-amd64/Packages
+5aad735939a11716b98c2fd0d3de6c3acac9dca4698c61abcf332a7dcc81beab  main/binary-amd64/Packages.gz
