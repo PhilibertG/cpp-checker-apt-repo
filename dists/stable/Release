@@ -1,0 +1,11 @@
+Origin: PhilibertG
+Label: EPITECH C++ Checker
+Suite: stable
+Codename: stable
+Architectures: amd64 all
+Components: main
+Description: EPITECH C++ Coding Style Checker Repository
+MD5Sum:
+4577b0f91d4bfbc10415a7d616fad514  main/binary-amd64/Packages.gz
+SHA256:
+1bc88cc9b85a964213c8981ec08d26db4921740212e374b642bd632ce2553541  main/binary-amd64/Packages.gz
