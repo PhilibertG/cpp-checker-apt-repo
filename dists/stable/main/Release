@@ -1,0 +1,24 @@
+Architectures: amd64 all
+Codename: stable
+Components: main
+Date: Wed, 11 Feb 2026 11:44:32 +0000
+Description: EPITECH C++ Coding Style Checker
+Label: EPITECH C++ Checker
+Origin: PhilibertG
+Suite: stable
+MD5Sum:
+ 93cc0d0821b54f6fdee3182c6bfd40dc              203 Release
+ 541acfdfc7cb401abd251d6b061e5d20              740 binary-amd64/Packages
+ db53c7b58d887f9e39028c26f55b2f60              493 binary-amd64/Packages.gz
+SHA1:
+ 3003dcee453d8e5fb625eefaea0213c55a3569a4              203 Release
+ 41385a7ddff5447d689f151f027065c5f9e935db              740 binary-amd64/Packages
+ 7c1dfc9962db73698c5e9abd38db0f17b8236208              493 binary-amd64/Packages.gz
+SHA256:
+ 8859bf183e7bafaa0d5d54b50e20ee4b6623549514a009f9272148aeae3b9772              203 Release
+ 8127c767f49fedcdd4662399ef7d9be6389f6f7c76479e03d5624d32f11aa970              740 binary-amd64/Packages
+ ee20a9c9333dcf1d6382a7e409ee706830475c68805ab25d2b10bd9f7c584feb              493 binary-amd64/Packages.gz
+SHA512:
+ 359ae378b8ede8e970c8a5f3b4d77620b33a50db7dbf1711f255ba8432c2b253c7f9602d24c076122c7cb42cdb65d36cef71f84a22522fdfcd2594e19c30d0cd              203 Release
+ fc5314fa431e2d73890633e770a27217a20c4c58e9516be70a3c346a7eee32115e0870d269e8a3b6bfde837f3cac8b4fafd79741446afc8ac69a854e158078ea              740 binary-amd64/Packages
+ 3d21bf0d797687ba89adb0bdafcb403697fbc91fcc05150785cc9d49e9f7e32a7bb9e81b64727c775616650824e619f20fd0fc20c99cc79817e1b20dca42b5dc              493 binary-amd64/Packages.gz

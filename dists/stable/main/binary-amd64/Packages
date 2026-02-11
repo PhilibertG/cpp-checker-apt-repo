@@ -3,7 +3,7 @@ Version: 1.0.2
 Architecture: all
 Maintainer: <>
 Recommends: docker.io | docker-ce
-Filename: ../../../../pool/main/cpp-coding-style-checker_1.0.2_all.deb
+Filename: pool/main/cpp-coding-style-checker_1.0.2_all.deb
 Size: 3372
 MD5sum: 3275105fb3bbd92a6325aa104f0072db
 SHA1: 5a8f7abde8935e62ed76ba1955c6df916f82acfe
