@@ -2,13 +2,25 @@ Origin: PhilibertG
 Label: EPITECH C++ Checker
 Suite: stable
 Codename: stable
+Version: 1.0
 Architectures: amd64 all
 Components: main
-Description: EPITECH C++ Coding Style Checker Repository
-Date: $(date -R)
+Description: ECPITECH C++ Coding Style Checker Repository
+Date: $(date -R -u)
+Date: Wed, 11 Feb 2026 08:17:07 +0000
 MD5Sum:
-5fe19e9d74eccac9b4bbae44adf8f178  main/binary-amd64/Packages
-b9e0aaec5a215d3397a85ae7298efcad  main/binary-amd64/Packages.gz
+ 77eb86fb108356061394ccb5bc25b0c2              248 Release
+ dbec9b36b5249ca7ddc524389f4ab43b              797 main/binary-amd64/Packages
+ 1e738153df62533cf4794384d698a3b9              527 main/binary-amd64/Packages.gz
+SHA1:
+ eef05d557ffebec61b0d426fc2e0da3054c14d09              248 Release
+ 9f2b3b4701443db8fa563ee62c2eb839eb51286f              797 main/binary-amd64/Packages
+ d68b6c359cec3062dd32e344d2cc84bb7815c487              527 main/binary-amd64/Packages.gz
 SHA256:
-7d2ab8e961fcdf3378bea69b947d546c46b8b5bdb6386e12df9420bbb1a2f0e6  main/binary-amd64/Packages
-5aad735939a11716b98c2fd0d3de6c3acac9dca4698c61abcf332a7dcc81beab  main/binary-amd64/Packages.gz
+ 5cf9402199569e28b5a61459b511a00750c857b6302df5c996d0723ae8cc9be4              248 Release
+ 9dd3f96250be9cdd456ed31cc17ebf072ac9557f2c33c673c3565ef067a3b3e2              797 main/binary-amd64/Packages
+ 33c0b1006e57ad9f360e6b59754ca07318a3e56dd9d448be9b43c99661dc5d68              527 main/binary-amd64/Packages.gz
+SHA512:
+ 49e4f5f78a18b649e97ac53c1a23c0fea54379e4a1039a88046f0fa36a96dd5336d3f03430a291396f7dfad016e0f7eea64aba500cb42cb4e342d74c16e21f1b              248 Release
+ 2f91613a8208872cd54abba630d296c686a5b338ac147b1f6c016f5c9777973a2b17e6f17269260648a0990df6e4f6fe99c36068b696c0f8cd6f14e4dbeb91a5              797 main/binary-amd64/Packages
+ 5ae4f251812dcaff99d7b83fa00553eb9e8c669252d09f20c572e34a54b9ee1a74a3b6831896e4f8ccdb8ebf6e41acdff1b15fad6e7bf86fc0e0ce975e70a711              527 main/binary-amd64/Packages.gz
