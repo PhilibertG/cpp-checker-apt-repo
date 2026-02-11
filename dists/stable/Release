@@ -5,7 +5,8 @@ Codename: stable
 Version: 1.0
 Architectures: amd64 all
 Components: main
-Description: EPITECH C++ Coding Style Checker RepositoryDate: Wed, 11 Feb 2026 10:39:23 +0000
+Description: EPITECH C++ Coding Style Checker Repository
+Date: Wed, 11 Feb 2026 10:39:23 +0000
 MD5Sum:
  a7e405a847dc310cebf266be4f45ba05              226 Release
  9b70b9c4a7a82dc17380a11cd2b5989b              801 main/binary-amd64/Packages
@@ -20,5 +21,22 @@ SHA256:
  ce3c068dfe20a853f45ed0be7d6c5c1d8bfe7d950ccb42a00cf9d179f289f4dd              524 main/binary-amd64/Packages.gz
 SHA512:
  a72d7f2eca87d5a3616479108c970a600eeae17bd695c11312fe78f18b833f83798f4ca9c354334520f66aca6e76d20b4953e6e686b9781ef4723a4db2428ee1              226 Release
+ 5fdec29db3c783df4fffb35b9169a9e28d7cbcdff82f1bd9e6795f3337f7aa241fb12927f0c2c30e015af1b0930e0a97c38b20df0c66b54b7304f98e4e6eae08              801 main/binary-amd64/Packages
+ 3ad37f578fd4d93808d5e72e7cdc2ee8ed834f68d04da151c06427ca907050e4677a654b1a9abd3637d2ebcec773f60867208c0e47327327f97bf990d15c94ed              524 main/binary-amd64/Packages.gz
+Date: Wed, 11 Feb 2026 10:48:56 +0000
+MD5Sum:
+ 74d6ed5a895ca2688a40b70660bd276c             1575 Release
+ 9b70b9c4a7a82dc17380a11cd2b5989b              801 main/binary-amd64/Packages
+ b8d6422997345671f8c04be8984ecea3              524 main/binary-amd64/Packages.gz
+SHA1:
+ 3cd17640c775ec4b65113216fd500634c531317b             1575 Release
+ 7d08f54eaab64e930f2d8214391143412479c302              801 main/binary-amd64/Packages
+ 01aca8414b2211c6e2bb5b6fe3ee0ddcf0fc86c8              524 main/binary-amd64/Packages.gz
+SHA256:
+ 0b53970ae20fe7b91f2bd86cfa1ed33c180ba7dc9082b72c44f8fc9ae365fd09             1575 Release
+ 26f3baee33bb57a2fd898f0b9873d0f8f864dedfb1b9fb2a3837ab4ad4572c15              801 main/binary-amd64/Packages
+ ce3c068dfe20a853f45ed0be7d6c5c1d8bfe7d950ccb42a00cf9d179f289f4dd              524 main/binary-amd64/Packages.gz
+SHA512:
+ a852e14831d1798f4e4edb1e8a65a892829f209204a66d7792a4146e2bd9a49a71e928815cb15db68aa587fc62495000e04d0840de3b4bb393ba6ecd45bf8871             1575 Release
  5fdec29db3c783df4fffb35b9169a9e28d7cbcdff82f1bd9e6795f3337f7aa241fb12927f0c2c30e015af1b0930e0a97c38b20df0c66b54b7304f98e4e6eae08              801 main/binary-amd64/Packages
  3ad37f578fd4d93808d5e72e7cdc2ee8ed834f68d04da151c06427ca907050e4677a654b1a9abd3637d2ebcec773f60867208c0e47327327f97bf990d15c94ed              524 main/binary-amd64/Packages.gz
