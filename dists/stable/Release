@@ -1,0 +1,25 @@
+Codename: stable
+Date: Wed, 11 Feb 2026 12:14:51 +0000
+Label: EPITECH C++ Checker
+Origin: PhilibertG
+Suite: stable
+MD5Sum:
+ 19f0bf12069f8c581ae029e716a81795              115 Release
+ ce5a8c02e485b0e3be754f9b9d86cccd             1473 main/Release
+ 1bf9e0cb2237742da54291742689d0f7              789 main/binary-amd64/Packages
+ 29ca0e576f61820da9bd61b7f0f809c8              521 main/binary-amd64/Packages.gz
+SHA1:
+ 2e7c75941465c8a7bde2ece4d0e20afcd34f4614              115 Release
+ cad92a0610eddfc34298d32f922b398e985eee69             1473 main/Release
+ 73099f303053783ac44a2a23522ccb9cd0acc13a              789 main/binary-amd64/Packages
+ 4fe92c87cf5b877db8875be83082bd2ad00b93b8              521 main/binary-amd64/Packages.gz
+SHA256:
+ 212330319d9005599e09a3fc58a9525b57e1a4d9a3b8aa701b9b1246010ba490              115 Release
+ 35098118afefa77e9f4dcf6a55a5fac9bed02a63d5002f5c8811d4ee6e050538             1473 main/Release
+ e28d5f6753be920056723042d43923584b7e5bfbcfb3d6fb6ee787367c359414              789 main/binary-amd64/Packages
+ ffbc1eafecffa5efe5bccbc14fbcc746851d79a1dd7ecc0fd0b219730132435b              521 main/binary-amd64/Packages.gz
+SHA512:
+ 9cb6bcc0b8bef0f61b2957c0db97282c84a50fff45f1370d1e0814c8c49f2b79f8568cff610e2fd8c36b8a28e3adc72be27a47795c65c6ce8551b1d6d1223b2e              115 Release
+ 2cde3dc1c9954c2d85b5656817e9f653ae931271f2fe27ad2a496ae6666c87d0b3f0eb2932da3fae7cc85280835f43a26ea3c3cdc89732511f1714110541d47c             1473 main/Release
+ a4fd3387e0fb594343c57db867b8a7ece962c2bd7115cddd8ef5659b9a35085f39f00268d3faccffea801f90fdfd46c6e4455d392aba73f4b4bb4fc913e54845              789 main/binary-amd64/Packages
+ 45d7aa0571394443ce4bd727036794faaa3345041e1758c389562952ae4959660b4c39abe08edb7300198c88f69faaeef3aeef3c10d2fdcd593a58228cbe2357              521 main/binary-amd64/Packages.gz
