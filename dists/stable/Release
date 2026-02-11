@@ -5,7 +5,7 @@ Codename: stable
 Version: 1.0
 Architectures: amd64 all
 Components: main
-Description: ECPITECH C++ Coding Style Checker Repository
+Description: EPITECH C++ Coding Style Checker Repository
 Date: $(date -R -u)
 Date: Wed, 11 Feb 2026 08:17:07 +0000
 MD5Sum:
