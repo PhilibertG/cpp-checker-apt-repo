@@ -3,7 +3,7 @@ Version: 1.0.0
 Architecture: all
 Maintainer: PhilibertG <philibert.gentien@epitech.eu>
 Recommends: docker.io | docker-ce
-Filename: ../../../../pool/main/cpp-coding-style-checker_1.0.0_all.deb
+Filename: pool/main/cpp-coding-style-checker_1.0.0_all.deb
 Size: 2930
 MD5sum: 5b0a22753e742a4a5660a79fcaabf0ce
 SHA1: e983d2a69928e90f3ed9b42b1314b19ec308c433
