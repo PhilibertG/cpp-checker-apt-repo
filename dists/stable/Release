@@ -1,28 +1,28 @@
 Architectures: amd64 all
 Codename: stable
 Components: main
-Date: Wed, 11 Feb 2026 22:05:26 +0000
+Date: Wed, 11 Feb 2026 22:16:15 +0000
 Description: EPITECH C++ Coding Style Checker Repository
 Label: EPITECH C++ Checker
 Origin: PhilibertG
 Suite: stable
 MD5Sum:
- 2525bf196ac9787c0b2ca1247ed066ff              214 Release
+ 09790039f3b49b74989f1151270ccb09              214 Release
  ce5a8c02e485b0e3be754f9b9d86cccd             1473 main/Release
- b4ca43977fab0bd175288b27357fd33b              742 main/binary-amd64/Packages
- db697c1e5d3e4fc5e42b78ba36aa24c3              497 main/binary-amd64/Packages.gz
+ b4895600c6311ef95121bf7cfa3429df              742 main/binary-amd64/Packages
+ c3b5eed4d68d24834a40bc35cc4e1a5a              494 main/binary-amd64/Packages.gz
 SHA1:
- 3ac6548cc353c58e03629f100921d8cbf2ededb1              214 Release
+ 8652051b0ba0a4bfaaf80cf662ef23f520f16e2e              214 Release
  cad92a0610eddfc34298d32f922b398e985eee69             1473 main/Release
- e1ebff5d515d3310a9382a6c3d9b63278a30990f              742 main/binary-amd64/Packages
- ab59e95bc93907a4112c02c94fc489c970b60db3              497 main/binary-amd64/Packages.gz
+ 1350dc4325d90cda5832122a6034b33218f07939              742 main/binary-amd64/Packages
+ e911ac433c85924e21cb70355a7e4888cd85cb15              494 main/binary-amd64/Packages.gz
 SHA256:
- f7d6e65fb2452a31cfa669963533e09be257b87a5aef60f084d6687a5c4234a0              214 Release
+ b61ac8f20286d4011f8ebf6f8ef63421e6e31d4348753b8b869fce297980fa82              214 Release
  35098118afefa77e9f4dcf6a55a5fac9bed02a63d5002f5c8811d4ee6e050538             1473 main/Release
- da4d84bc95bb3332c486f5a61a7767e489c5aaaf32f279545e8f6b67e21cbc61              742 main/binary-amd64/Packages
- 06b6f0be4f9de3c32bf0e0b5acc9481c7b672175cd1021a290be0fa64cf6b309              497 main/binary-amd64/Packages.gz
+ 01280923c727566ffebdb31bf4d3e6efc2fbfd9c25c4f4c38c5494fd0501afb8              742 main/binary-amd64/Packages
+ 9bec846aa4ea9c0a889a4ed8befdbc1d49755e74da6edb6d15cbb46623f28496              494 main/binary-amd64/Packages.gz
 SHA512:
- d475fe135497fb74068d252b3b4031035ba8ad094ed3c3b892e103a8c7e623f39f8b78ef40fa197999c032975584c67059776bed0bd1e77f3c7eb2db60451d6c              214 Release
+ 1489ccaa2e94271e3f1b2eef7a86964f418472b06ade718d5abebd22c07f3e4a317521c5499f59b722f34eaac74c0d499a5b4c124ed9e0c456fe2c894c6fcefc              214 Release
  2cde3dc1c9954c2d85b5656817e9f653ae931271f2fe27ad2a496ae6666c87d0b3f0eb2932da3fae7cc85280835f43a26ea3c3cdc89732511f1714110541d47c             1473 main/Release
- b5fbb5dbf3c8e6201c2fdd70bc38c6d5cb56c7cb8fd6b1239df5c705a5740ac992932cb0079683b6c7e70b1d84f9e0133a21cc5ce95f20f6634466acfaec7b78              742 main/binary-amd64/Packages
- 283af3c428d25131695ab750071e3f38fe7c851d41dfb00a415bbdae4848444e77b850a612eda0faa9bece62eb8638e8ea57b1b52d9ac836c293d00aaad5386f              497 main/binary-amd64/Packages.gz
+ 7d502e1622afb34413f6a176c91359615f956e6bd465f18289268dcd02e6a1fd8f3903d8fb2a9dcdad506f9ea5ebe7e70cee385461c2d6812773ecc76ba01bd2              742 main/binary-amd64/Packages
+ db5ab742ee47339a1fee9545b1cc975bb0a1c2d333d9f83da9b81b9cd3a1d8ef18e1b8268f4161034b6853e5fc97d30208a68272b7cf1bf2c6cf0f0cea1e4201              494 main/binary-amd64/Packages.gz
