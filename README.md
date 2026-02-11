@@ -63,6 +63,46 @@ sudo apt remove cpp-coding-style-checker
 sudo rm /etc/apt/sources.list.d/cpp-checker.list
 ```
 
+## Règles Implémentées
+
+### Fonctions (F)
+
+- **F1** [MAJOR/INFO] : Les fonctions ne doivent pas dépasser 25 lignes
+  - INFO (warning) : 21-25 lignes
+  - MAJOR (erreur) : > 25 lignes
+
+### Nommage (N)
+
+- **N3** [MINOR] : Les noms de fonctions doivent être en camelCase
+- **N4** [MINOR] : Les noms de variables doivent être en camelCase
+  - Accepte le préfixe underscore pour les membres privés (`_memberVariable`)
+
+### Classes (K)
+
+- **K2** [MINOR] : Les constructeurs doivent utiliser des listes d'initialisation
+- **K3** [MINOR] : Les modificateurs d'accès doivent être ordonnés (public, protected, private)
+
+### En-têtes (H)
+
+- **H1** [MAJOR] : Les fichiers d'en-tête ne doivent contenir que des déclarations
+- **H2** [MAJOR] : Les fichiers d'en-tête doivent avoir des gardes d'inclusion ou `#pragma once`
+- **H3** [MINOR] : Préférer const/constexpr à #define pour les constantes
+
+### Mise en Forme (L)
+
+- **L1** [MINOR] : Les lignes ne doivent pas dépasser 80 colonnes (les tabulations comptent pour 8 espaces)
+- **L2** [MINOR] : L'indentation doit utiliser 4 espaces, pas de tabulations
+- **L3** [MINOR] : Pas d'espaces en fin de ligne
+- **L4** [MINOR] : Pas plus d'une ligne vide consécutive
+
+### Général (G)
+
+- **G1** [MINOR] : Les fichiers doivent contenir l'en-tête EPITECH
+
+### Avancé (A)
+
+- **A9** [MAJOR] : Pas de directive `using namespace` dans la portée globale
+
 ## Support
 
 - **Repository**: https://github.com/philibertg/cpp-checker-apt-repo
