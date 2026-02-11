@@ -7,7 +7,7 @@ Repository APT pour l'installation simplifiée du checker de style C++ EPITECH.
 ### 1. Ajouter le repository
 
 ```bash
-echo "deb [arch=amd64] https://philibertg.github.io/cpp-checker-apt-repo stable main" | \
+echo "deb [arch=amd64 trusted=yes] https://philibertg.github.io/cpp-checker-apt-repo stable main" | \
   sudo tee /etc/apt/sources.list.d/cpp-checker.list
 ```
 
