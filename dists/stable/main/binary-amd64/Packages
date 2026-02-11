@@ -1,16 +1,16 @@
 Package: cpp-coding-style-checker
 Version: 1.0.3
 Architecture: all
-Maintainer: PhilibertG <philibert.gentien@epitech.eu>
+Maintainer: <>
 Recommends: docker.io | docker-ce
-Filename: pool/main/cpp-coding-style-checker_1.0.3_all.deb
-Size: 3420
-MD5sum: b5d23313359fbb90ce04330ad3a6d20a
-SHA1: 4a2db3278b62975c08258637580f6c7c80ac1d34
-SHA256: 699e6a6ff8f42900e3031cfb664914a33fbe4ee834ccdbcc9e3a65ced8bc028b
+Filename: ../../../../pool/main/cpp-coding-style-checker_1.0.3_all.deb
+Size: 3378
+MD5sum: 2256d55e12187e4e490e7a6b8967961c
+SHA1: 450b4852ca04307cdec55ca366dace11d8e95733
+SHA256: 58523848555d391e49da893fbb4a7da02d68e3941447398a5b1ab94d4cb872c9
 Section: devel
 Priority: optional
-Homepage: https://github.com/PhilibertG/cpp-coding-style-checker
+Homepage: https://github.com//cpp-coding-style-checker
 Description: EPITECH C++ Coding Style Checker
  Automated coding style checker for EPITECH C++ projects.
  Uses libclang for semantic AST analysis and checks 14+ coding rules.
