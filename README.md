@@ -63,13 +63,35 @@ sudo apt remove cpp-coding-style-checker
 sudo rm /etc/apt/sources.list.d/cpp-checker.list
 ```
 
-# Règles Implémentées V1.0.13
+# Règles Implémentées V1.0.14
 
 ## Fonctions (F)
 
 - **F1** [MAJOR/INFO] : Les fonctions ne doivent pas dépasser 25 lignes
   - INFO (warning) : 21-25 lignes
   - MAJOR (erreur) : > 25 lignes
+
+- **F2** [MINOR] : Les lignes à l'intérieur des fonctions ne doivent pas dépasser 80 colonnes
+  - Une tabulation compte comme un caractère mais plusieurs colonnes
+
+- **F3** [MAJOR] : Les fonctions ne doivent pas avoir plus de 5 arguments
+  - Les fonctions variadiques sont autorisées mais ne doivent pas contourner cette limite
+
+- **F4** [MINOR] : Les fonctions sans arguments ne doivent pas utiliser `void`
+  - ❌ `int getWordCount(void);`
+  - ✅ `int getWordCount();`
+
+- **F5** [MINOR] : Pas de commentaires à l'intérieur d'une fonction
+  - La fonction doit être lisible et auto-explicative
+
+- **F6** [MINOR] : Les fonctions ne doivent pas être marquées `virtual` sauf si nécessaire
+  - Toujours utiliser `override` et `final` quand pertinent
+
+- **F7** [MINOR] : Les fonctions passées en paramètres doivent utiliser `std::function` ou pointer-to-member
+  - Pas de pointeurs de fonction classiques
+
+- **F8** [MINOR] : Les structures et objets doivent être passés par référence
+  - Pas par pointeur ou copie (sauf si la copie est explicitement nécessaire)
 
 ## Nommage (N)
 
@@ -134,6 +156,8 @@ sudo rm /etc/apt/sources.list.d/cpp-checker.list
 - **MAJOR** : Erreur grave qui doit être corrigée
 - **MINOR** : Problème de style qui devrait être corrigé
 - **INFO** : Avertissement informatif
+
+---
 
 ## Support
 
