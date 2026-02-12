@@ -65,65 +65,125 @@ sudo rm /etc/apt/sources.list.d/cpp-checker.list
 
 ---
 
-# Règles Implémentées V1.0.15
+# Règles EPITECH C++ Coding Style v2.0.0
 
-## Fonctions (F)
+## D - Design
 
-- **F1** [MAJOR/INFO] : Nombre de lignes (recommandé 20, max 25)
-- **F2** [MINOR] : Nombre de colonnes dans les fonctions (max 80)
-- **F3** [MAJOR] : Nombre d'arguments (max 5)
-- **F4** [MINOR] : Pas de void pour les fonctions sans arguments
-- **F5** [MINOR] : Pas de commentaires dans les fonctions
-- **F6** [MINOR] : Polymorphisme (virtual/override/final)
-- **F7** [MINOR] : Paramètres callables (std::function)
-- **F8** [MINOR] : Copy elision (passage par référence)
+❌ - **D1** [MINOR] : Single Responsibility Principle
+❌ - **D2** [MAJOR] : Open/closed principle
+❌ - **D3** [MINOR] : Liskov Substitution Principle
+❌ - **D4** [MINOR] : Dependency Inversion Principle
+❌ - **D5** [MINOR] : Constness
+❌ - **D6** [MINOR] : RAII
 
-## Nommage (N)
+## N - Naming
 
-- **N3** [MINOR] : Noms de fonctions en camelCase
-- **N4** [MINOR] : Noms de variables en camelCase
+❌ - **N1** [MAJOR] : General (meaningful, English)
+✅ - **N2** [MAJOR] : Files and folders (PascalCase)
+✅ - **N3** [MAJOR] : Functions (camelCase)
+✅ - **N4** [MAJOR] : Variables (camelCase, UPPER_CASE for macros, global constants and content of enums)
+✅ - **N5** [MAJOR] : Types (PascalCase)
 
-## Classes (K)
+## O - File organization
 
-- **K2** [MINOR] : Listes d'initialisation des constructeurs
-- **K3** [MINOR] : Ordre des modificateurs d'accès
+✅ - **O1** [MAJOR] : Contents of turn-in directory
+✅ - **O2** [MINOR] : File extensions
+❌ - **O3** [MAJOR] : File coherence
 
-## En-têtes (H)
+## G - Global scope
 
-- **H1** [MAJOR] : Contenu des fichiers d'en-tête
-- **H2** [MAJOR] : Gardes d'inclusion (#pragma once interdit)
-- **H3** [MINOR] : Macros (préférer const/constexpr)
+✅ - **G1** [MAJOR] : File header
+✅ - **G2** [MINOR] : Separation of functions
+✅ - **G3** [MINOR] : Indentation of pre-processor directives
+✅ - **G4** [MAJOR] : Global variables
+❌ - **G5** [MINOR] : Static
+❌ - **G6** [MINOR] : Constants
+✅ - **G7** [MINOR] : Template parameters
+❌ - **G8** [MAJOR] : Plain C functions
 
-## Mise en Forme - Layout (L)
+## F - Functions
 
-- **L1** [MINOR] : Une ligne = un statement
-- **L2** [MINOR] : Indentation (4 espaces, pas de tabulations)
-- **L3** [MINOR] : Espaces (virgules, keywords, opérateurs)
-- **L4** [MINOR] : Placement des accolades
-- **L5** [MINOR] : Déclaration de variables
-- **L6** [INFO] : Sauts de ligne pour la lisibilité
+✅ - **F1** [MAJOR/INFO] : Number of lines (recommandé 20, max 25)
+✅ - **F2** [MAJOR] : Number of columns (max 80)
+✅ - **F3** [MAJOR] : Argument count (max 5)
+✅ - **F4** [MINOR] : No arguments (pas de void)
+✅ - **F5** [MINOR] : Comments inside function
+✅ - **F6** [MINOR] : Polymorphism (virtual/override/final)
+✅ - **F7** [MINOR] : Callable parameters (std::function)
+✅ - **F8** [MINOR] : Copy elision (passage par référence)
 
-## Structures de Contrôle (C)
+## L - Layout inside a function scope
 
-- **C1** [MAJOR] : Branchements conditionnels (max 3 branches, nesting max 2)
-- **C2** [MINOR] : Expressions ternaires simples
-- **C3** [MAJOR] : Pas de goto
-- **C4** [MINOR] : Boucles for simples
-- **C5** [INFO] : Préférer les range-based for
+✅ - **L1** [MAJOR] : Code line content (une ligne = un statement)
+✅ - **L2** [MINOR] : Indentation (4 espaces, pas de tabs)
+✅ - **L3** [MINOR] : Spaces (virgules, keywords, opérateurs)
+✅ - **L4** [MINOR] : Curly brackets
+✅ - **L5** [MINOR] : Variable declaration
+✅ - **L6** [INFO] : Line jumps
 
-## Portée Globale (G)
+## C - Control structures
 
-- **G1** [MINOR] : En-tête de fichier EPITECH
+✅ - **C1** [MAJOR] : Conditional branching (max 3 branches, nesting max 2)
+✅ - **C2** [MINOR] : Ternary expressions
+✅ - **C3** [MAJOR] : Goto
+✅ - **C4** [MINOR] : For condition and iteration expressions
+✅ - **C5** [INFO] : Ranges
 
-## Avancé (A)
+## V - Variables and types
 
-- **A9** [MAJOR] : Pas de using namespace global
+✅ - **V1** [MINOR] : Pointers and references
+❌ - **V2** [MINOR] : Plain Old Data Types
+
+## K - Classes
+
+❌ - **K1** [MAJOR] : Naming attributes
+✅ - **K2** [MINOR] : Constructor list
+✅ - **K3** [MINOR] : Class access modifiers
+✅ - **K4** [MINOR] : Friend
+❌ - **K5** [MINOR] : Operator overloads
+✅ - **K6** [INFO] : Type aliases
+
+## H - Header files
+
+✅ - **H1** [MAJOR] : Content
+✅ - **H2** [MAJOR] : Include guard (#pragma once interdit)
+✅ - **H3** [MINOR] : Macros
+
+## S - STL
+
+❌ - **S1** [INFO] : Containers
+❌ - **S2** [MINOR] : Smart pointers
+❌ - **S3** [INFO] : Algorithms
+
+## E - Error handling
+
+✅ - **E1** [MAJOR] : Exit
+❌ - **E2** [MINOR] : Return value
+❌ - **E3** [MINOR] : Exceptions
+❌ - **E4** [MINOR] : Exception types
+❌ - **E5** [INFO] : Noexcept
+✅ - **E6** [MINOR] : Return points
+
+## A - Advanced
+
+❌ - **A1** [MINOR] : Constant pointers
+❌ - **A2** [INFO] : Scalar typing
+✅ - **A3** [INFO] : NULL
+❌ - **A4** [INFO] : Auto
+✅ - **A5** [MINOR] : Casts
+❌ - **A6** [MINOR] : C libraries
+❌ - **A7** [MINOR] : Encapsulation
+✅ - **A8** [INFO] : Conditional specialization
+✅ - **A9** [MAJOR] : using namespace
 
 ---
 
-**Total : 28 règles implémentées**
+## 📊 Statistiques
 
-## Légende
+- **Total règles PDF** : 68 règles
+- **Implémentées** : 46 règles (68%)
+
+## 🏷️ Légende
 
 - **MAJOR** : Erreur grave
 - **MINOR** : Problème de style
