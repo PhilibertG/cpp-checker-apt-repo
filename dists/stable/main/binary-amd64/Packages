@@ -1,13 +1,13 @@
 Package: cpp-coding-style-checker
-Version: 4.1.1
+Version: 4.1.2
 Architecture: amd64
 Maintainer: Philibert G <philibert.gentil@epitech.eu>
 Depends: libclang-cpp18, libllvm18, clang-format-18
-Filename: pool/main/cpp-coding-style-checker_4.1.1_amd64.deb
-Size: 9241104
-MD5sum: 2ec0d6cfb42a6ee3be9fdb5985ee28ae
-SHA1: 72364eb396dafa47f75cde6616689aaf7bcd8954
-SHA256: 85079fcab969fc65383cd6a4433daa48e9ea3236893f02c904e8133109ac82fa
+Filename: pool/main/cpp-coding-style-checker_4.1.2_amd64.deb
+Size: 9209182
+MD5sum: 9262df53bebbb7a8c2b7d568e19d8c3b
+SHA1: 3d03791732a970368ebe197cb029ea4ed173555c
+SHA256: 8f4636dbb8cb156fb28669656b0d912e43f2b0887883a39b36af5e8440d1d34c
 Section: devel
 Priority: optional
 Description: EPITECH C++ Coding Style Checker (Native)
