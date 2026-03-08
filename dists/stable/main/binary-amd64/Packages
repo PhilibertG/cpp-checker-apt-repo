@@ -4,13 +4,13 @@ Architecture: amd64
 Maintainer: Philibert G <philibert.gentil@epitech.eu>
 Depends: libclang-cpp18, libllvm18, clang-format-18
 Filename: pool/main/cpp-coding-style-checker_4.1.1_amd64.deb
-Size: 9238848
-MD5sum: a9e868b1792016c15bc58dde24223578
-SHA1: 757e7c3af58cadd01a4d2c788d4596b86138d658
-SHA256: ef53c8b864cb8539d28fcb76414ca560e9edd1cc6cf68225a308b0e8163c61c4
+Size: 9241104
+MD5sum: 2ec0d6cfb42a6ee3be9fdb5985ee28ae
+SHA1: 72364eb396dafa47f75cde6616689aaf7bcd8954
+SHA256: 85079fcab969fc65383cd6a4433daa48e9ea3236893f02c904e8133109ac82fa
 Section: devel
 Priority: optional
 Description: EPITECH C++ Coding Style Checker (Native)
  High-performance C++ linter for EPITECH standards.
- Uses LLVM/Clang LibTooling for AST-based analysis.
+ Includes the 'cpp-coding-style-checker' command.
 
