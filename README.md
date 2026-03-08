@@ -51,15 +51,15 @@ Pour vérifier le style de votre projet actuel :
 cpp-coding-style-checker .
 ```
 
-### 2. Le Mode Silencieux (`--quiet`)
-Idéal pour se concentrer sur les erreurs critiques qui font échouer le projet :
+### 2. Le Mode Auto-Fix (`--fix`)
+Nouveauté majeure : corrigez instantanément vos erreurs de Layout.
 ```bash
-cpp-coding-style-checker . --quiet
+cpp-coding-style-checker . --fix
 ```
-*   N'affiche **que** les erreurs **MAJOR**.
-*   Retourne un code de succès (0) s'il n'y a que des erreurs mineures.
+*   Applique `clang-format -i` sur tous vos fichiers selon la norme EPITECH.
+*   Règle l'indentation, les espaces et les accolades automatiquement.
 
-### 3. Exécution Parallèle (Automatique)
+### 3. Le Mode Silencieux (`--quiet`)
 L'outil détecte automatiquement votre nombre de cœurs CPU et répartit la charge. Aucune configuration requise, c'est juste **beaucoup plus rapide**.
 
 ---
