@@ -1,13 +1,13 @@
 Package: cpp-coding-style-checker
-Version: 3.5.0
+Version: 3.5.1
 Architecture: all
 Maintainer: <>
 Recommends: docker.io | docker-ce
-Filename: pool/main/cpp-coding-style-checker_3.5.0_all.deb
-Size: 3554
-MD5sum: 3e4e2d1ea30dc211d4a246b25370d8b5
-SHA1: b0445c224f4116589ac434378ae826dd17443850
-SHA256: a1dcad7625fa47955224bf4856422ad007450d37af39dabcdf9ee8328a724152
+Filename: pool/main/cpp-coding-style-checker_3.5.1_all.deb
+Size: 3552
+MD5sum: 880625db34065f9d36323c8903b67a11
+SHA1: 1fc5ca2630c6fe214744a2c0a49f92e75a0f63e8
+SHA256: ea423e951cb67986828b5af7965618729d133d9505f4effb4e86c004f8479492
 Section: devel
 Priority: optional
 Homepage: https://github.com//cpp-coding-style-checker
