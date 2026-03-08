@@ -7,7 +7,6 @@ Bienvenue sur le dépôt officiel du **EPITECH C++ Coding Style Checker**. Cet o
 *   **Vitesse Ultime** : Exécution parallèle utilisant tous les cœurs de votre CPU.
 *   **Zéro Faux Positif** : Intégration de `clang-format` pour une mise en forme parfaite.
 *   **Intelligence Sémantique** : Analyse de l'arbre syntaxique (AST) via `libclang` pour détecter les erreurs de conception (private attributes, RAII, etc.).
-*   **Mode Dashboard** : Un affichage clair et coloré directement dans votre terminal.
 *   **Compatible CI/CD** : GitHub Action native disponible.
 
 ---
@@ -51,15 +50,21 @@ Pour vérifier le style de votre projet actuel :
 cpp-coding-style-checker .
 ```
 
-### 2. Le Mode Auto-Fix (`--fix`)
-Nouveauté majeure : corrigez instantanément vos erreurs de Layout.
+### 2. Le Mode Silencieux (`--quiet`)
+Idéal pour se concentrer sur les erreurs critiques qui font échouer le projet :
 ```bash
-cpp-coding-style-checker . --fix
+cpp-coding-style-checker . --quiet
 ```
-*   Applique `clang-format -i` sur tous vos fichiers selon la norme EPITECH.
-*   Règle l'indentation, les espaces et les accolades automatiquement.
+*   N'affiche **que** les erreurs **MAJOR**.
+*   Retourne un code de succès (0) s'il n'y a que des erreurs mineures.
 
-### 3. Le Mode Silencieux (`--quiet`)
+### 3. Liste des Règles (`--rules`)
+Affiche toutes les règles supportées et leurs descriptions :
+```bash
+cpp-coding-style-checker . --rules
+```
+
+### 4. Exécution Parallèle (Automatique)
 L'outil détecte automatiquement votre nombre de cœurs CPU et répartit la charge. Aucune configuration requise, c'est juste **beaucoup plus rapide**.
 
 ---
