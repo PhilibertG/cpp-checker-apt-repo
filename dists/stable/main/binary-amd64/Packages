@@ -1,20 +1,16 @@
 Package: cpp-coding-style-checker
-Version: 3.5.2
-Architecture: all
-Maintainer: <>
-Recommends: docker.io | docker-ce
-Filename: pool/main/cpp-coding-style-checker_3.5.2_all.deb
-Size: 3596
-MD5sum: f20afe176a7f34e917e53c5cca125bb7
-SHA1: 3698763b779ea5a6756c19f43828e2c9d583a8f9
-SHA256: 696c1dc2f635bebadeff8aa08b7cfa2748d13f3b1367be61a40af39827e504bc
+Version: 4.1.1
+Architecture: amd64
+Maintainer: Philibert G <philibert.gentil@epitech.eu>
+Depends: libclang-cpp18, libllvm18, clang-format-18
+Filename: pool/main/cpp-coding-style-checker_4.1.1_amd64.deb
+Size: 9238848
+MD5sum: a9e868b1792016c15bc58dde24223578
+SHA1: 757e7c3af58cadd01a4d2c788d4596b86138d658
+SHA256: ef53c8b864cb8539d28fcb76414ca560e9edd1cc6cf68225a308b0e8163c61c4
 Section: devel
 Priority: optional
-Homepage: https://github.com//cpp-coding-style-checker
-Description: EPITECH C++ Coding Style Checker
- Automated coding style checker for EPITECH C++ projects.
- Uses libclang for semantic AST analysis and checks 14+ coding rules.
- .
- This package installs the checker script that automatically pulls
- and runs the Docker image from GitHub Container Registry.
+Description: EPITECH C++ Coding Style Checker (Native)
+ High-performance C++ linter for EPITECH standards.
+ Uses LLVM/Clang LibTooling for AST-based analysis.
 
